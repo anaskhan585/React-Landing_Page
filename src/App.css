@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", serif;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px;
+  /* border-bottom: 1px solid black;  */
+}
+.logo{
+    width: 80px;
+    height: 45px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.btn1 button{
+    padding: 8px 16px;
+    border: none;
+    background-color:#D01C28 ;
+    border-radius: 3px;
+    color:white;
+    font-size: 17px;
+}
+.hero{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    /* background-color: pink; */
+}
+.content{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 40px 180px;
+   
+}
+.content h1{
+    font-size: 108px;
+    line-height: 102px;
+    font-weight: 800;
+}
+.content p{
+    width: 430px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #5A5959;
+    margin: 20px 0;
+}
+#one{
+    background-color: #D01C28;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin: 10px 0;
+}
+#two{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    margin: 10px 30px;
+    padding: 8px 16px;
+}
+.icons p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.icons img{
+    width: 32px;
+    height: 32px;
+}
+#three{
+    margin: 0 20px;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    /* background-color: lightcyan; */
+}
+.right img{
+    width: 700px;
+    height: 550px;
+    margin: 20px 0px;
+}
